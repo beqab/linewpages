@@ -255,6 +255,23 @@ section.resultats table tbody tr {
   font-size: 20px; }
 section.resultats table tbody td {
   padding: 0.30rem; }
+section.resultats .tab-content > .active {
+  background: transparent;
+  box-shadow: none; }
+
+.mytabsb .nav-tabs .nav-item {
+  margin-left: 7px;
+  background: transparent; }
+.mytabsb .controlers ul li {
+  font-size: 14px; }
+
+.my_tabs {
+  position: relative; }
+  .my_tabs .x12 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: translate(-50%, -50%); }
 
 /*========================== */
 @media only screen and (max-width: 670px) {

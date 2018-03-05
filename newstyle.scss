@@ -355,6 +355,32 @@ section.resultats{
 			}
 		}
 	}
+	.tab-content > .active{
+		background: transparent;
+		box-shadow: none;
+	}
+}
+.mytabsb{
+	
+	.nav-tabs .nav-item{
+		    margin-left: 7px;
+		    background: transparent ;
+	}
+	 .controlers{
+
+	 	  ul li{
+	 	  	font-size: 14px;
+	 	  }
+	 }
+}
+.my_tabs{
+	position: relative;
+	.x12{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		transform:translate(-50%, -50%)
+	}
 }
 
 /*========================== */
