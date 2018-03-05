@@ -1,0 +1,402 @@
+$manecolor: #6AADDB;
+.small_line{
+
+	display: inline-block;
+	position: relative;
+	 &:before{
+	 	height: 3px;
+	 	position: absolute;
+	 	width: 20px;
+	 	border-radius: 4px;
+	 	background: $manecolor;
+	 	content: '';
+	 	transform:translate(-50%, -50%);
+	 	top: 50%;
+	 	left: -20px;
+
+	 }
+}
+@font-face {
+    font-family: 'MyriadPro-Bold';
+    src: url('fonts/MyriadPro-Bold.eot');
+    src: local('☺'), url('fonts/MyriadPro-Bold.woff') format('woff'), url('fonts/MyriadPro-Bold.ttf') format('truetype'), url('fonts/MyriadPro-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*========================== */
+section.schedule .math, section.schedule .eng{
+   font-family: 'MyriadPro-Bold';
+}
+section.schedule .outer{ 
+  max-width: 363px;
+}
+
+
+section.schedule{
+
+	font-family: 'MyriadPro-Bold' !important;
+       
+       .container{
+       	 max-width: 900px;
+
+       }
+
+	color: $manecolor;
+	font-weight: bold;
+	font-size: 24pt;
+	padding-bottom: 50px;
+	.stage_opimpiada{
+		       margin-top: 35px;
+    color: #558FBF;
+    font-size: 18px;
+    margin-left: 20px;
+    max-width: 369px;
+    font-family: 'MyriadPro-Bold';
+        &:last-child{
+        	        margin-top: 25px;
+        }
+
+		&.line_bottom{
+			    margin-bottom: 34px;
+
+		}
+
+		  &.line_bottom .li_ball:after{
+              height: 44px;
+    width: 3px;
+    position: absolute;
+    content: '';
+    transform: translate(-50%, -50%);
+    left: 50%;
+    bottom: -69px;
+    background: #6AADDB;
+
+		  } 
+		span{
+			    text-align: center;
+			    font-family: 'MyriadPro-Bold';
+    margin-left: 34px;
+    display: inline-block;
+        line-height: 23px;
+              &.box{
+		 		    border: 1px solid #6AADDB;
+    font-size: 14pt;
+    padding: 5px;
+    width: 152px;
+    box-sizing: content-box;
+    border-radius: 4px;
+    font-family: 'MyriadPro-Bold';
+
+		 		 span{
+		 		 	margin-left: 0px;
+		 		 }
+		 		 div{
+		 		 	font-size: 18pt;
+		 		 }
+		 	}
+		}
+
+		 div{
+		 	text-align: center;
+		 	line-height: 23px;
+		 	&.st{
+		 		margin-left: 10px;
+		 		margin-right: 10px;
+		 		font-family: 'MyriadPro-Bold';
+		 	}
+		 	
+		 }
+		 .li_ball{
+		 	    height: 44px;
+    width: 44px;
+    border: 3px solid #6AADDB;
+    position: relative;
+    border-radius: 50px;
+    transform: translateX(-50%);
+
+          &:before{
+          	     height: 3px;
+    width: 22px;
+    position: absolute;
+    content: '';
+    transform: translate(-50%, -50%);
+    top: 50%;
+    right: -36px;
+    background: #6AADDB;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+          }
+		 }
+	}
+
+	  ul.prep_test{
+              margin-left: 20px;
+    max-width: 335px;
+
+       
+
+
+           li{
+           	    font-size: 14pt;
+    position: relative;
+    margin-top: 6px;
+    font-family: 'MyriadPro-Bold';
+         &:last-child .li_ball:after {
+            height: 44px;
+    bottom: -69px;
+         }
+
+      span{
+      	    display: inline-block;
+    border: 1px solid #6AADDB;
+        padding: 0px 7px;
+    justify-self: end;
+    width: 140px;
+    border-radius: 4px;
+    font-family: 'MyriadPro-Bold';
+    font-size: 13pt;
+    float: right;
+      }
+           	   .li_ball{
+           	   	     border-radius: 50px;
+    border: 3px solid #6AADDB;
+    width: 13px;
+    height: 13px;
+    position: relative;
+    transform: translateX(-50%);
+        &.long{
+              
+              &:after{
+                     height: 64px;
+    bottom: -98px;
+              }
+            
+        }
+           	   	 
+           	   	   &:before{
+           	   	   	    position: absolute;
+    content: '';
+    height: 3px;
+    width: 7px;
+    right: -12px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: #6AADDB;
+    top: 50%;
+    transform: translate(-50%, -50%);
+           	   	   }
+           	   	   &:after{    
+           	   	   	position: absolute;
+    content: '';
+    height: 23px;
+    width: 3px;
+    left: 50%;
+    /* border-bottom-right-radius: 4px; */
+    /* border-top-right-radius: 4px; */
+    background: #6AADDB;
+    bottom: -37px;
+    transform: translate(-44%, -50%);
+           	   	   }
+           	   }
+           }
+
+	  }
+}
+/*========================== */
+ 
+section.resultats .foot  > div{
+    height: 42px;
+     &.left{
+     	background:#558FBF; 
+     	color: #fff;
+     	font-family: 'MyriadPro-Bold';
+     	font-size: 18px;
+     }
+     &.right{
+     	background:#6AADDB; 
+     	color: #fff;
+     	font-family: 'MyriadPro-Bold';
+     	span{
+     		    line-height: 17px;
+     		    font-family: 'MyriadPro-Bold';
+     		    #stk{
+     		    	font-size: 14px;
+     		    	color: #636060;
+     		    	 font-family: 'MyriadPro-Bold';
+     		    }
+     	}
+     }
+}
+section.resultats .hedaer_tab span{
+
+	line-height: 32px;
+}
+section.resultats{
+	.autherb{
+		margin-bottom: 25px;
+	}
+       .diplom{
+       	background: url(images/bgx.png);
+       	background-position: center;
+       	background-size: cover;
+
+       }
+       .x_block{
+       	  height: 90px;
+       	  background: #C1272D;
+
+       	  .auther{
+       	  	width: 90%;
+       	  }
+
+       	  .code{
+       	  	 font-size: 14px;
+       	  	 color: #fff;
+       	  	 font-family: 'MyriadPro-Bold';
+
+       	  }
+       	  div{
+       	  	text-align: center;
+       	  	font-family: 'MyriadPro-Bold';
+       	  	color: #fff;
+       	  	 &.balance{
+
+       	  	 	line-height: 20px;
+       	  	 	 span{
+       	  	 	 	font-size: 25px;
+       	  	 	 	font-family: 'MyriadPro-Bold';
+       	  	 	 }       	  
+
+       	  	 	 	 }
+       	  	 	 	 &.Apmo{
+       	  	 	 	 	background: #E0A027;
+       	  	 	 	 	color: #fff;
+       	  	 	 	 	font-family: 'MyriadPro-Bold';
+       	  	 	 	 	padding: 14px 18px;
+       	  	 	 	 }
+       	  }
+
+       }
+
+      .left_head{
+      	 height: 90px;
+      	 background: #C7E7F9;
+      	  .wight{
+      	  	font-family: 'MyriadPro-Bold';
+      	  	    background: #fff;
+    height: 56px;
+        width: 90%;
+    justify-content: space-between;
+    color: #d6dfe8;
+    padding-left: 50px;
+
+
+        span{
+        	 height: 100%;
+        	 line-height: 100%;
+        	     display: flex;
+    align-items: center;
+    background: #E0A027;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    font-family: 'MyriadPro-Bold';
+
+        }
+
+      	  }
+      }
+
+
+	.hedaer_tab{
+   color: #558FBF;
+   background: #C7E7F9;
+   height: 90px;
+   padding-right: 30px;
+   padding-left: 30px;
+    span{
+    	 font-size: 34pt;
+    	 font-weight: bold;
+    	 margin-left: 15px;
+
+    }
+
+	}
+	table{
+
+		thead{
+			background: #558FBF;
+			color: #fff;
+			text-align: center;
+            font-size: 14pt;
+			th{
+				 padding-top: 23px;
+				 padding-bottom: 23px;
+				 font-family: 'MyriadPro-Bold';
+				 font-size: 14px;
+				 vertical-align: middle;
+				
+			}
+		}
+		tbody{
+
+			tr{
+				border-bottom: 5px solid #558FBF;
+				 text-align: center;
+				 color:  #558FBF;
+				 font-family: 'MyriadPro-Bold';
+				  font-weight: bold;
+				  text-transform: uppercase;
+				  font-size: 20px;
+			}
+			td{
+				    padding: 0.30rem;
+			}
+		}
+	}
+}
+
+/*========================== */
+
+@media only screen and (max-width: 670px) {
+  section.resultats .x_block div.balance {
+    line-height: 15px;
+    font-size: 13px;
+}
+section.resultats .x_block div.Apmo {
+    padding: 9px 5px;
+}
+section.resultats .foot > div.left {
+   
+    font-size: 12px;
+}
+section.resultats .foot > div.right span {
+    line-height: 13px;
+    font-size: 12px;
+}
+}
+@media only screen and (max-width: 770px) {
+            section.schedule .outer{ 
+  max-width: 363px;
+  margin: auto;
+   float: unset !important;
+}
+
+section.schedule .stage_opimpiada span.box{
+         font-size: 11pt;
+	}
+  section.schedule .stage_opimpiada span.box div{
+  	font-size: 13pt;
+  }
+
+  section.schedule .outer{
+  	margin-bottom: 20px;
+  }
+  section.schedule .stage_opimpiada span{
+  	margin-left: 0px;
+  }
+  .small_line:before{
+        display: none;
+  }
+}
