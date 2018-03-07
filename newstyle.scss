@@ -381,9 +381,363 @@ section.resultats{
 		top: 0px;
 		transform:translate(-50%, -50%)
 	}
+		
+	 
 }
 
+.mytabsb {
+
+.nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    color: #000;
+    padding: 0px 15px ;
+}
+ul.nav{
+          align-items: baseline;		
+	}
+	.nav.nav-tabs .nav-link.active {
+    background-color: #c8e6fb;
+    position: relative;
+    padding: 11px 15px;
+    z-index: 0;
+    bottom: 10px;
+    border: #c8e6fb;
+}
+
+}
+section.schedule.ACHIEVEMENTS{
+
+.tab-content > .active{
+	padding-top: 0px;
+}
+
+	
+    div.tab-content {
+    max-width: 972px;
+    margin: auto;
+    height: 632px;
+    overflow: hidden;
+}
+
+  .tab-content > .container{
+       
+       }
+
+
+
+	.stage_opimpiada .li_ball:before{
+
+		right: -35px;
+	}
+	ul.prep_test li .li_ball:after{
+		    transform: translate(-50%, -50%);
+	}
+	.li_ball{
+  left: -1px;
+	}
+	.stage_opimpiada.line_bottom .li_ball:after{
+		    transform: translate(-113%, -50%);
+	}
+	.stage_opimpiada  {
+		max-width: 400px !important;
+	}
+	.tab-content > .active{
+		background: transparent !important;
+		box-shadow: none;
+	}
+	.outer{
+		max-width: 420px;
+	}
+	ul.prep_test li span{
+		width: 210px;
+		display: flex;
+		cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+	}
+	ul.prep_test{
+		max-width: 400px;
+	}
+	
+}
+.comming{
+
+	justify-content: center !important;
+}
+
+.mytabsb{
+	 .nav-link.active{
+		background-color: $manecolor !important;
+		color: #fff !important;
+	}
+	ul.nav.nav-tabs {
+    max-width: 1140px ;
+    margin: auto;
+        display: flex;
+    flex-wrap: nowrap;
+     li a{
+     	color: $manecolor;
+     	font-family: 'MyriadPro-Bold';
+     	font-size: 17px;
+     	border: 1px solid $manecolor;
+     	border-radius: 0;
+     }
+     }
+
+
+}
+.stage_opimpiada_last{
+	justify-content: start !important;
+}
+
+.last_boxb{
+	display: inline-block;
+	height: 100px;
+	
+        align-items: center !important;
+    display: flex !important;
+    justify-content: center !important;
+	div{
+   border: 1px solid $manecolor;
+   width: 210px;
+       text-align: center;
+    line-height: 23px;
+    border-radius: 4px;
+    padding: 2px;
+    transform: translateX(4px);
+	}
+
+}
+.opacity04{
+ opacity: 0.4;
+} 
+ .btntogleopas{
+               width: 44px;
+    height: 23px;
+    padding: 2px;
+    background: #6AADDB;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+         span{
+         	height: 17px;
+         	line-height: 23px;
+         	width: 17px;
+         	background: #fff;
+         	display: inline-block;
+         	border-radius: 70px;
+         }    
+      }
+
+      .flex_direction{
+      	flex-direction: row-reverse;
+      }  
+
+    .opshnger{
+    	 display: flex;
+    flex-direction: row-reverse;
+       span{
+       	  font-size: 14pt;
+       	  font-family: 'MyriadPro-Bold';
+       	  color: #ccc;
+       	  &.active{
+       	  color: #004487;
+       }
+       }
+
+    } 
+
+    .container.fff{
+    	max-width: 1076px !important;
+    }
+
+.runking {
+
+min-height: 600px;
+margin-bottom: 50px;
+margin-top: 100px;
+
+
+	.smpading{
+		padding-left: 9px;
+		padding-right: 9px;
+	}
+
+
+	table tbody{
+       
+         td{
+         	color: #558FBF;
+         	font-size: 13pt;
+         	    padding: 3px 0.75rem;
+         	font-family: 'MyriadPro';
+         	font-weight: normal;
+
+
+
+             
+             div{
+             	width: 10px;
+             	height: 10px;
+             	border-radius: 50px;
+             	background: #7AC943;
+             	display: inline-block;
+             	margin-right: 10px;
+             }
+
+         }
+         tr{
+           	border-bottom: 1px solid #c7e7f9;
+
+           	&:nth-child(1){
+               
+               td:last-child{
+               	   background: #EBC275;
+
+               }
+           	}
+           	  	&:nth-child(2){
+               
+               td:last-child{
+               	   background: #F3D9A9;
+               }
+           	}
+           	  	&:nth-child(3){
+               
+               td:last-child{
+               	   background: #FAF0DD;
+               }
+           	}
+
+           	  td:last-child{
+           	  	font-size: 16pt;
+           	  }
+           }
+
+	}
+	table thead{
+		background:#c7e7f9;
+		
+		color: #004487;
+
+
+		 th{
+		 	  font-family: 'MyriadPro-Bold';
+		 	       padding: 30px 0.75rem;
+		 	    
+		 }
+	}
+
+	.tab-content > .active {
+    display: block;
+    background: #efebeb;
+    border-radius: 10px;
+    padding-top: 0px;
+    box-shadow: unset;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+	div.tab-content{
+		 max-width: 1150px;
+	}
+
+	.nav-tabs .nav-item{
+          margin-left: 4px;
+	}
+
+	ul.nav.nav-tabs {
+       max-width: 1150px;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+     li:first-child{
+     	margin-left: 0px;
+     }
+}
+
+	.nav-item{
+		    background: transparent;
+    border: 1px solid #6AADDB;
+    transform: translateY(14px);
+
+
+		
+		a{
+			padding: 0 20px;
+			color: #558FBF;
+			font-family: 'MyriadPro-Bold';
+		}
+		select{
+                   width: 90%;
+    border: none;
+    font-size: 14px;
+    color: #ccc;
+    height: 26px;
+
+     &:focus{
+     	outline: none;
+     }
+          option{
+          	color: #ccc;
+          }
+
+		}
+	}
+	.nav-tabs{
+        height: 30px;
+	}
+	.nav.nav-tabs .nav-link.active{
+	      padding: 0px 2px 12px;
+	       bottom: 19px;
+	   background: #C7E7F9;
+	       transform: scaleX(1.02);
+	       color: #558FBF;
+	       font-family: 'MyriadPro-Bold';
+	}
+}
+
+   li.greyccc {
+   	color: #ccc !important;
+
+   	.li_ball {
+   		border-color: #ccc !important;
+   		&:before{
+   			background: #ccc !important;
+   		}
+   	}
+   }
+
 /*========================== */
+
+@media only screen and (max-width: 1000px) {
+   .runking  .nav-tabs .nav-link {
+       border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    /* color: #000; */
+    /* padding: 3px 15px; */
+    padding-top: 8px !important;
+    font-size: 12px !important;
+    border-top-right-radius: 0.25rem;
+    border-top-right-radius: 4px;
+}
+
+}
+
+@media only screen and (max-width: 991px) {
+   .schedule.ACHIEVEMENTS .outer {
+         margin: auto;
+   }
+
+   section.schedule.ACHIEVEMENTS div.tab-content {
+    height: 1174px;
+}
+}
 
 @media only screen and (max-width: 670px) {
   section.resultats .x_block div.balance {
@@ -401,8 +755,34 @@ section.resultats .foot > div.right span {
     line-height: 13px;
     font-size: 12px;
 }
+section.schedule.ACHIEVEMENTS ul.prep_test li span {
+    width: 139px;
+    font-size: 11px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+.last_boxb div {
+    border: 1px solid #6AADDB;
+   
+    text-align: center;
+    line-height: 23px;
+    border-radius: 4px;
+    padding: 2px;
+    transform: translateX(4px);
+}
 }
 @media only screen and (max-width: 770px) {
+	.mytabsb ul.nav.nav-tabs li a {
+   
+ 
+    font-size: 12px;
+ 
+   
+    padding-left: 6px;
+    padding-right: 6px;
+}
             section.schedule .outer{ 
   max-width: 363px;
   margin: auto;
@@ -419,10 +799,54 @@ section.schedule .stage_opimpiada span.box{
   section.schedule .outer{
   	margin-bottom: 20px;
   }
-  section.schedule .stage_opimpiada span{
-  	margin-left: 0px;
-  }
+  // section.schedule .stage_opimpiada span{
+  // 	margin-left: 0px;
+  // }
   .small_line:before{
         display: none;
   }
 }
+
+@media only screen and (max-width: 520px) {
+	section.schedule .stage_opimpiada.line_bottom .li_ball:after{
+		left: 53%;
+	}
+         
+             .mytabsb ul.nav.nav-tabs{
+              flex-wrap: wrap;
+              margin-bottom: 50px;
+               justify-content: center;
+
+             }
+             .mytabsb .nav-tabs .nav-item{
+             	margin-bottom: 20px;
+             }
+             .mytabsb .nav.nav-tabs .nav-link.active {
+    background-color: #c8e6fb;
+    position: relative;
+    padding: 11px 6px;
+    z-index: 0;
+    bottom: 10px;
+    border: #c8e6fb;
+
+}
+           
+	}
+
+	@media only screen and (max-width: 470px) {
+
+.last_boxb div {
+  width: 150px;
+}
+
+section.schedule.ACHIEVEMENTS .stage_opimpiada {
+    max-width: 374px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.last_boxb div {
+    width: 127px;
+}
+
+	}
